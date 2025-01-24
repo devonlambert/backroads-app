@@ -9,15 +9,10 @@ function App() {
   return (
     <>
         <Navbar/>
-
         <Hero/>
-
         <About/>
-
         <Services/>
-
         <Tours/>
-
         <Footer/>
     </>
   );

@@ -17,3 +17,9 @@ export const footerLinks = [
     { id:3, href:'#services', text: 'services' },
     { id:4, href:'#featured', text: 'featured' }
 ]
+
+export const services = [
+    { id: 1, title: "saving money", icon: "wallet", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia." },
+    { id: 2, title: "endless hiking", icon: "tree", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia." },
+    { id: 3, title: "amazing comfort", icon: "socks", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia." }
+]

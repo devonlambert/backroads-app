@@ -31,8 +31,8 @@ export const services = [
 ]
 
 export const tours = [
-    { id: 1, image: tour1Img, date: "august 26th, 2020", title: "Tibet Adventure", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", place: "china", days: "6", price: "$2100" },
-    { id: 2, image: tour2Img, date: "october 1th, 2020", title: "best of java", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", place: "indonesia", days: "11", price: "$1400" },
-    { id: 3, image: tour3Img, date: "september 15th, 2020", title: "explore hong kong", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", place: "hong kong", days: "8", price: "$5000" },
-    { id: 4, image: tour4Img, date: "december 5th, 2019", title: "kenya highlights", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", place: "kenya", days: "20", price: "$3300" }
+    { id: 1, image: tour1Img, date: "august 26th, 2020", title: "Tibet Adventure", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", location: "china", days: 6, price: 2100 },
+    { id: 2, image: tour2Img, date: "october 1th, 2020", title: "best of java", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", location: "indonesia", days: 11, price: 1400 },
+    { id: 3, image: tour3Img, date: "september 15th, 2020", title: "explore hong kong", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", location: "hong kong", days: 8, price: 5000 },
+    { id: 4, image: tour4Img, date: "december 5th, 2019", title: "kenya highlights", info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.", location: "kenya", days: 20, price: 3300 }
 ]

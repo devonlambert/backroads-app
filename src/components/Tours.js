@@ -9,7 +9,7 @@ const Tours = () => {
                 <Title title="featured" subTitle="tours" />
 
                 <div className="section-center featured-center">
-                    {tours.map(({id, image, date, title, info, place, days, price}) => {
+                    {tours.map(({id, image, date, title, info, location, days, price}) => {
                         return (
                             <article className="tour-card" key={id}>
                                 <div className="tour-img-container">
@@ -23,10 +23,10 @@ const Tours = () => {
                                     <p>{info}</p>
                                     <div className="tour-footer">
                                         <p>
-                                        <span><i className="fas fa-map"></i></span> {place}
+                                        <span><i className="fas fa-map"></i></span> {location}
                                         </p>
                                         <p>{days} days</p>
-                                        <p>from {price}</p>
+                                        <p>from ${price}</p>
                                     </div>
                                 </div>
                             </article>
